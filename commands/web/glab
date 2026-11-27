@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#ddev-generated
+
+## Description: Run the GitLab CLI (glab) inside the web container
+## Usage: glab [flags] [args]
+## Example: "ddev glab auth login" or "ddev glab mr list"
+## ExecRaw: true
+
+glab "$@"

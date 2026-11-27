@@ -1,0 +1,4 @@
+#ddev-generated
+# glab config contains authentication tokens; never commit it.
+*
+!.gitignore

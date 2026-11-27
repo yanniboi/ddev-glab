@@ -1,0 +1,5 @@
+#ddev-generated
+# Persist glab configuration (including auth tokens) in the project's .ddev/glab
+# directory so it survives restarts and rebuilds.
+web_environment:
+  - GLAB_CONFIG_DIR=/var/www/html/.ddev/glab

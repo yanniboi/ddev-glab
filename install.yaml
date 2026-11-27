@@ -1,0 +1,13 @@
+# Details about the install.yaml file are at https://ddev.readthedocs.io/en/stable/users/extend/additional-services/#sections-and-features-of-ddev-get-add-on-installyaml
+
+name: glab
+
+# Each file contains #ddev-generated so it can be replaced by a later
+# `ddev add-on get` if it hasn't been modified by the user.
+project_files:
+  - web-build/Dockerfile.glab
+  - commands/web/glab
+  - config.glab.yaml
+  - glab/.gitignore
+
+ddev_version_constraint: '>= v1.24.3'
